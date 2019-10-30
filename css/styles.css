@@ -1,3 +1,11 @@
 body {
   margin: 0;
 }
+.imgLogo {
+  width: 20%;
+  display: block;
+  margin: auto;
+}
+#mainMenu {
+  background-color: black;
+}
