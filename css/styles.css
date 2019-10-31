@@ -30,4 +30,8 @@ p {
 .phoneNumber{
     text-align: center;
 }
+.tile {
+    width: 200px;
+    height: 200px;
+}
 
