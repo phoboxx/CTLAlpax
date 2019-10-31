@@ -1,11 +1,32 @@
 body {
-  margin: 0;
+    margin: 0;
 }
+
 .imgLogo {
-  width: 20%;
-  display: block;
-  margin: auto;
+    width: 20%;
+    display: block;
+    margin: auto;
 }
+
 #mainMenu {
-  background-color: black;
+    background-color: #222831;
 }
+
+#informatique {
+    background-color: #eeeeee;
+}
+
+#sauvegarde {
+    background-color: #393e46;
+}
+
+p {
+    margin: 0;
+}
+
+/*Main Menu*/
+
+.phoneNumber{
+    text-align: center;
+}
+
