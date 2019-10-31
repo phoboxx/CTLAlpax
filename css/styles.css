@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .imgLogo {
@@ -27,12 +28,13 @@ p {
     background-color: #222831;
     color: #eeeeee;
 }
-.phoneNumber{
+
+.phoneNumber {
     text-align: center;
 }
+
 .tile {
     width: 200px;
     height: 200px;
     border: 1px solid white;
 }
-
