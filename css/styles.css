@@ -8,9 +8,7 @@ body {
     margin: auto;
 }
 
-#mainMenu {
-    background-color: #222831;
-}
+
 
 #informatique {
     background-color: #eeeeee;
@@ -25,7 +23,10 @@ p {
 }
 
 /*Main Menu*/
-
+#mainMenu {
+    background-color: #222831;
+    color: #eeeeee;
+}
 .phoneNumber{
     text-align: center;
 }
