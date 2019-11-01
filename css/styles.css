@@ -3,13 +3,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.imgLogo {
-    width: 200px;
-    display: block;
-    margin: auto;
-}
-
-
 
 #informatique {
     background-color: #eeeeee;
@@ -28,9 +21,15 @@ p {
     background-color: #222831;
     color: #eeeeee;
 }
-
+.imgLogo {
+    padding: 30px;
+    width: 260px;
+    display: block;
+    margin: auto;
+}
 .phoneNumber {
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .tile {
