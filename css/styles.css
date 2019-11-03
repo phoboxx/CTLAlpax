@@ -3,9 +3,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-
-#informatique {
-    background-color: #eeeeee;
+.imgLogo {
+    width: 200px;
+    display: block;
+    margin: auto;
 }
 
 #sauvegarde {
@@ -21,23 +22,73 @@ p {
     background-color: #222831;
     color: #eeeeee;
 }
-.imgLogo {
-    padding: 30px;
-    width: 260px;
-    display: block;
-    margin: auto;
-}
+
 .phoneNumber {
     text-align: center;
-    padding-bottom: 30px;
+    padding: 0 0 60px 0;
 }
 
 .tile {
-    width: 200px;
-    height: 200px;
-    border: 1px solid white;
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    margin-bottom: 30px;
+    background-color: #00adb5;
+}
+.tile i {
+  position: absolute;
+  display: block;
+  font-size: 5rem;
+  text-align: center;
+  padding: 30px 0 0 0;
+  top: 30%;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 .menuTitle {
     text-align: center;
     font-size: 1.5rem;
+    padding: 15px 0 0 0;
+    word-wrap:break-word;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.mainMenuContainer {
+  width: 70%;
+}
+
+@media only screen and (max-width: 767px){
+  .mainMenuContainer {
+    /* Helps the tiles to not look too squished */
+    width: 100%;
+  }
+}
+
+/* Informatique section */
+
+#informatique {
+    background-color: #eeeeee;
+}
+#informatique h2 {
+  text-align: center;
+}
+#informatique i {
+  font-size: 4rem;
+  display: block;
+}
+.informatiqueContainer {
+  width: 70%;
+}
+.servicesIco {
+  display: inline-block;
+  position: relative;
+  bottom: 30px;
+  right: 30px;
+}
+.serviceList {
+  display: inline-block;
 }
