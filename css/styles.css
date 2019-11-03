@@ -38,7 +38,7 @@ p {
 .tile i {
   position: absolute;
   display: block;
-  font-size: 5rem;
+  font-size: 5vw;
   text-align: center;
   padding: 30px 0 0 0;
   top: 30%;
@@ -48,7 +48,7 @@ p {
 }
 .menuTitle {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.7vw;
     padding: 15px 0 0 0;
     word-wrap:break-word;
     position:absolute;
@@ -65,6 +65,12 @@ p {
   .mainMenuContainer {
     /* Helps the tiles to not look too squished */
     width: 100%;
+  }
+  .tile i {
+    font-size: 15vw;
+  }
+  .menuTitle {
+    font-size: 4vw;
   }
 }
 
