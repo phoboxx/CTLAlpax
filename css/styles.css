@@ -1,40 +1,41 @@
 body {
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .imgLogo {
-    width: 200px;
-    display: block;
-    margin: auto;
+  width: 200px;
+  display: block;
+  margin: auto;
 }
 
 #sauvegarde {
-    background-color: #393e46;
+  background-color: #393e46;
 }
 
 p {
-    margin: 0;
+  margin: 0;
 }
 
 /*Main Menu*/
 #mainMenu {
-    background-color: #222831;
-    color: #eeeeee;
+  background-color: #222831;
+  color: #eeeeee;
 }
 
 .phoneNumber {
-    text-align: center;
-    padding: 0 0 60px 0;
+  text-align: center;
+  padding: 0 0 60px 0;
 }
 
 .tile {
-    position: relative;
-    width: 100%;
-    padding-top: 100%;
-    margin-bottom: 30px;
-    background-color: #00adb5;
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+  margin-bottom: 30px;
+  background-color: #00adb5;
 }
+
 .tile i {
   position: absolute;
   display: block;
@@ -46,55 +47,79 @@ p {
   left: 0;
   right: 0;
 }
+
 .menuTitle {
-    text-align: center;
-    font-size: 1.7vw;
-    padding: 15px 0 0 0;
-    word-wrap:break-word;
-    position:absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  text-align: center;
+  font-size: 1.7vw;
+  padding: 15px 0 0 0;
+  word-wrap: break-word;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
+
 .mainMenuContainer {
   width: 70%;
 }
 
-@media only screen and (max-width: 767px){
-  .mainMenuContainer {
-    /* Helps the tiles to not look too squished */
-    width: 100%;
-  }
-  .tile i {
-    font-size: 15vw;
-  }
-  .menuTitle {
-    font-size: 4vw;
-  }
-}
+
 
 /* Informatique section */
 
 #informatique {
-    background-color: #eeeeee;
+  background-color: #eeeeee;
 }
+
 #informatique h2 {
   text-align: center;
 }
+
 #informatique i {
   font-size: 4rem;
   display: block;
 }
+
 .informatiqueContainer {
   width: 70%;
 }
+
 .servicesIco {
-  display: inline-block;
-  position: relative;
-  bottom: 30px;
-  right: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
+
 .serviceList {
-  display: inline-block;
+  margin: 0;
+}
+
+.wrap {
+  display: flex;
+  padding: 1rem 1rem 1rem 1rem;
+  margin-bottom: 2rem;
+  height: 90%;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .mainMenuContainer {
+    /* Helps the tiles to not look too squished */
+    width: 100%;
+  }
+
+  .tile i {
+    font-size: 15vw;
+  }
+
+  .menuTitle {
+    font-size: 4vw;
+  }
+
+  /* Informatique Section */
+  .informatiqueContainer {
+    width: 100%;
+  }
 }
