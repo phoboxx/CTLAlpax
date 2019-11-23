@@ -10,10 +10,6 @@ body {
   padding-top: 40px;
 }
 
-#sauvegarde {
-  background-color: #393e46;
-}
-
 p {
   margin: 0;
 }
@@ -132,15 +128,24 @@ p {
 /* Sauvegardes section */
 #sauvegarde {
   color: #eeeeee;
-}
-#sauvegarde h1{
   text-align: center;
-  padding: 40px 0 40px 0;
-}
-#sauvegarde h2 {
-  text-align: center;
-  padding: 0 0 20px 0;
+  background-color: #393e46;
 }
 .sauvegardeContainer {
   width: 70%;
+}
+#sauvegarde h1{
+  padding: 40px 0 40px 0;
+}
+#sauvegarde h2 {
+  padding: 0 0 20px 0;
+}
+#sauvegarde h3 {
+  padding: 40px 0 20px 0;
+}
+#sauvegarde p {
+  padding: 20px 0 20px 0; 
+}
+.sauvegardeList {
+  padding: 0 200px 0 200px;
 }
