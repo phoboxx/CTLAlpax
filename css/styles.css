@@ -128,3 +128,15 @@ p {
     width: 100%;
   }
 }
+
+/* Sauvegardes section */
+
+#sauvegarde h1{
+  text-align: center;
+  padding: 40px 0 40px 0;
+  color: #eeeeee;
+}
+#sauvegarde h2 {
+  text-align: center;
+  color: #eeeeee;
+}
