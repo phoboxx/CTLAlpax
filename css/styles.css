@@ -130,13 +130,17 @@ p {
 }
 
 /* Sauvegardes section */
-
+#sauvegarde {
+  color: #eeeeee;
+}
 #sauvegarde h1{
   text-align: center;
   padding: 40px 0 40px 0;
-  color: #eeeeee;
 }
 #sauvegarde h2 {
   text-align: center;
-  color: #eeeeee;
+  padding: 0 0 20px 0;
+}
+.sauvegardeContainer {
+  width: 70%;
 }
