@@ -133,6 +133,15 @@ p {
   margin: 0 0 30px 0;
   list-style: none;
 }
+#sauvegarde .card {
+  background-color: #eeeeee;
+}
+#sauvegarde h5 {
+  color: #393e46;
+}
+#sauvegarde btn {
+  background-color: #393e46;
+}
 
  /* MOBILE DEVICES */
 @media only screen and (max-width: 767px) {
