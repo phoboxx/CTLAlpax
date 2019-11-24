@@ -142,6 +142,7 @@ p {
 
 #sauvegarde h5 {
   color: #393e46;
+  font-size: 1vw;
 }
 #sauvegarde btn {
   background-color: #393e46;
@@ -174,5 +175,8 @@ p {
   
   .sauvegardeList {
     padding: 0 5% 0 5%;
+  }
+  #sauvegarde h5 {
+    font-size: 3vw;
   }
 }
