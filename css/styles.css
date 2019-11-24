@@ -134,8 +134,12 @@ p {
   list-style: none;
 }
 #sauvegarde .card {
+  background-color: #393e46;
+}
+#sauvegarde .card-body {
   background-color: #eeeeee;
 }
+
 #sauvegarde h5 {
   color: #393e46;
 }
