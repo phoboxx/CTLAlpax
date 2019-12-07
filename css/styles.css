@@ -177,6 +177,9 @@ p {
     padding: 0 5% 0 5%;
   }
   #sauvegarde h5 {
-    font-size: 3vw;
+    font-size: 4vw;
+  }
+  #sauvegarde .btn {
+    font-size: 4vw;
   }
 }
