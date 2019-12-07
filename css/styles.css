@@ -140,6 +140,7 @@ p {
 }
 #sauvegarde .card {
   background-color: #393e46;
+  margin-bottom: 30px;
 }
 #sauvegarde .card-body {
   background-color: #eeeeee;
@@ -151,6 +152,12 @@ p {
 }
 #sauvegarde btn {
   background-color: #393e46;
+}
+
+/* Contact section */
+
+#contact {
+  background-color: #eeeeee;
 }
 
  /* MOBILE DEVICES */
