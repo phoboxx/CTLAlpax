@@ -13,6 +13,12 @@ body {
 p {
   margin: 0;
 }
+.bold {
+  font-weight: 700;
+}
+.underline {
+  text-decoration: underline;
+}
 
 /*Main Menu*/
 #mainMenu {
@@ -77,8 +83,11 @@ p {
 #informatique h1 {
   text-align: center;
   padding: 40px 0 40px 0;
+  font-weight: 700;
 }
-
+#informatique h3 {
+  font-weight: 700;
+}
 #informatique i {
   font-size: 4rem;
   display: block;
