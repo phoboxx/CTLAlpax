@@ -114,6 +114,8 @@ p {
   margin-bottom: auto;
   margin-right: 2rem;
   margin-left: 2rem;
+  /* border: 1px solid black;
+  border-radius: 100%; */
 }
 
 .serviceList {
@@ -251,6 +253,10 @@ p {
   li {
     text-align: center;
     list-style: none;
+  }
+
+  .wrap p {
+    font-size: 3.6vw;
   }
 
 
