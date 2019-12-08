@@ -13,9 +13,11 @@ body {
 p {
   margin: 0;
 }
+
 .bold {
   font-weight: 700;
 }
+
 .underline {
   text-decoration: underline;
 }
@@ -38,8 +40,9 @@ p {
   margin-bottom: 30px;
   background-color: #00adb5;
 }
+
 .tile:hover {
-  left:5px;
+  left: 5px;
   bottom: 5px;
   box-shadow: rgba(255, 255, 255, 0.5) -5px 5px 3px;
 }
@@ -85,9 +88,11 @@ p {
   padding: 40px 0 40px 0;
   font-weight: 700;
 }
+
 #informatique h3 {
   font-weight: 700;
 }
+
 #informatique i {
   font-size: 4rem;
   display: block;
@@ -115,9 +120,16 @@ p {
   height: 90%;
   /* border: 3px solid; */
 }
+
 #informatique p {
   line-height: 2rem;
 }
+
+#informatique ul {
+  padding-left: 15px;
+  list-style: none;
+}
+
 
 /* Sauvegardes section */
 #sauvegarde {
@@ -125,32 +137,41 @@ p {
   text-align: center;
   background-color: #393e46;
 }
+
 .sauvegardeContainer {
   width: 70%;
 }
-#sauvegarde h1{
+
+#sauvegarde h1 {
   padding: 40px 0 40px 0;
 }
+
 #sauvegarde h2 {
   padding: 0 0 20px 0;
 }
+
 #sauvegarde h3 {
   padding: 40px 0 20px 0;
 }
+
 #sauvegarde p {
-  padding: 20px 0 20px 0; 
+  padding: 20px 0 20px 0;
 }
+
 .sauvegardeList {
   padding: 0 15% 0 15%;
 }
+
 .sauvegardeList li {
   margin: 0 0 30px 0;
   list-style: none;
 }
+
 #sauvegarde .card {
   background-color: #393e46;
   margin-bottom: 30px;
 }
+
 #sauvegarde .card-body {
   background-color: #eeeeee;
 }
@@ -159,6 +180,7 @@ p {
   color: #393e46;
   font-size: 1vw;
 }
+
 #sauvegarde btn {
   background-color: #393e46;
 }
@@ -167,29 +189,32 @@ p {
 #contact {
   background-color: #eeeeee;
 }
+
 #contact .header {
   text-align: center;
   font-size: 46px;
   padding-top: 30px;
 }
+
 #contact .form {
   text-align: center;
   width: 50%;
   margin: auto;
 }
+
 #contact .form input {
   width: 100%;
   margin: 20px 0;
-  background: rgba(0,0,0,0);
+  background: rgba(0, 0, 0, 0);
   border: none;
   border-bottom: 1px solid #222831;
 }
 
 #contact .form input:last-child {
- margin-top: 60px; 
+  margin-top: 60px;
 }
 
- /* MOBILE DEVICES */
+/* MOBILE DEVICES */
 @media only screen and (max-width: 767px) {
   .mainMenuContainer {
     /* Helps the tiles to not look too squished */
@@ -208,18 +233,29 @@ p {
   .informatiqueContainer {
     width: 100%;
   }
-  
+
+  div .wrap {
+    display: inline;
+  }
+  .wrap i,h3,p,li {
+    text-align: center;
+  }
+
+
+
   /* sauvegarde Section */
   .sauvegardeContainer {
     width: 100%;
   }
-  
+
   .sauvegardeList {
     padding: 0 5% 0 5%;
   }
+
   #sauvegarde h5 {
     font-size: 4vw;
   }
+
   #sauvegarde .btn {
     font-size: 4vw;
   }
