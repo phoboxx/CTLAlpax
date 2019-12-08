@@ -75,6 +75,13 @@ p {
   width: 70%;
 }
 
+.mainLink {
+  color: #eeeeee;
+}
+
+.mainLink:hover {
+  color: #eeeeee;
+}
 
 
 /* Informatique section */
@@ -127,7 +134,7 @@ p {
 
 #informatique ul {
   padding-left: 15px;
-  list-style: none;
+  list-style: square;
 }
 
 
@@ -237,8 +244,13 @@ p {
   div .wrap {
     display: inline;
   }
-  .wrap i,h3,p,li {
+
+  .wrap i,
+  h3,
+  p,
+  li {
     text-align: center;
+    list-style: none;
   }
 
 
