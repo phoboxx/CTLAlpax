@@ -11,8 +11,7 @@ if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
  
-    // $email_to = $_POST['departement']."@ctlalpax.ca";
-    $email_to = "legault.f123@gmail.com";
+    $email_to = $_POST['departement']."@ctlalpax.ca";
  
     $email_subject = $_POST['sujet'];
  

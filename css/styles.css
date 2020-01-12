@@ -203,7 +203,7 @@ p {
 #contact .header {
   text-align: center;
   font-size: 46px;
-  padding-top: 30px;
+  padding: 40px 0 40px 0;
 }
 
 #contact .form {
