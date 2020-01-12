@@ -153,6 +153,7 @@ p {
 
 #sauvegarde h1 {
   padding: 40px 0 40px 0;
+  font-weight: 600;
 }
 
 #sauvegarde h2 {
@@ -200,10 +201,14 @@ p {
   padding-bottom: 50px;
 }
 
+#contact h1 {
+  font-weight: 600;
+  padding: 40px 0 40px 0;
+}
+
 #contact .header {
   text-align: center;
   font-size: 46px;
-  padding: 40px 0 40px 0;
 }
 
 #contact .form {
