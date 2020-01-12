@@ -132,7 +132,7 @@ $headers = 'Content-type: text/html; charset=utf-8'.'From: '.$email_from."\r\n".
  
 @mail($email_to, $email_subject, $email_message, $headers );  
  
-header( "refresh:5; url=../contactez-nous.html" ); //wait for 5 seconds before redirecting
+header( "refresh:5; url=../index.html" ); //wait for 5 seconds before redirecting
 ?> 
 <!-- include your own success html here --> 
 Merci de nous avoir contacte. Nous reponderont aussitot que possible.

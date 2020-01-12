@@ -286,9 +286,9 @@
         <h1>Contactez-nous</h1>
       </div>
       <div class="form">
-        <form action="">
-          <input type="text" placeholder="Nom" required>
-          <input type="text" placeholder="E-Mail" required>
+        <form action="php/send_form_email.php" method="post" name="contactform" onsubmit="return checkForm(this)">
+          <input type="text" placeholder="Nom" name="nom" required>
+          <input type="text" placeholder="E-Mail" name="email" required>
           <select name="departement" required>
             <option value="">Choisissez un département</option>
             <option value="vente">Vente</option>
@@ -299,8 +299,8 @@
             <option value="communication">Communication</option>
             <option value="webmaster">Web</option>
           </select>
-          <input type="text" placeholder="Téléphone">
-          <input type="text" placeholder="Sujet" required>
+          <input type="text" placeholder="Téléphone" name="tel">
+          <input type="text" placeholder="Sujet" name="sujet" required>
           <textarea name="message" id="" cols="30" rows="10" placeholder="Message" required></textarea>
           <div>
             <label for="cptcha">
