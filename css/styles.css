@@ -197,6 +197,7 @@ p {
 /* Contact section */
 #contact {
   background-color: #eeeeee;
+  padding-bottom: 50px;
 }
 
 #contact .header {
@@ -230,6 +231,12 @@ p {
 #contact .form #captchaInput {
   width: 60px;
 }
+
+.captchaWarning {
+  font-weight: 600;
+}
+
+
 
 /* MOBILE DEVICES */
 @media only screen and (max-width: 767px) {
