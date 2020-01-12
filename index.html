@@ -287,11 +287,21 @@
       </div>
       <div class="form">
         <form action="">
-          <input type="text" placeholder="Nom">
-          <input type="text" placeholder="E-Mail">
+          <input type="text" placeholder="Nom" required>
+          <input type="text" placeholder="E-Mail" required>
+          <select  name="departement" required>
+            <option value="">Choisissez un département</option>
+            <option value="vente">Vente</option>
+            <option value="comptabilite">Comptabilité</option>
+            <option value="pos">Point de vente POS</option>
+            <option value="securite">Sécurité</option>
+            <option value="electronique">Électronique</option>
+            <option value="communication">Communication</option>
+            <option value="webmaster">Web</option>
+          </select>
           <input type="text" placeholder="Téléphone">
-          <input type="text" placeholder="Sujet">
-          <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+          <input type="text" placeholder="Sujet" required>
+          <textarea name="message" id="" cols="30" rows="10" placeholder="Message" required></textarea>
         </form>
         <button type="button" class="btn btn-secondary">Envoyer</button>
       </div>
