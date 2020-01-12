@@ -211,7 +211,7 @@ p {
   margin: auto;
 }
 
-#contact .form input {
+#contact .form input, textarea {
   width: 100%;
   margin: 20px 0;
   background: rgba(0, 0, 0, 0);
@@ -219,8 +219,10 @@ p {
   border-bottom: 1px solid #222831;
 }
 
-#contact .form input:last-child {
-  margin-top: 60px;
+#contact .form textarea {
+  /* border-left: 1px solid #222831;
+  border-right: 1px solid #222831; */
+  resize: none;
 }
 
 /* MOBILE DEVICES */
