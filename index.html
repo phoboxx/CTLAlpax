@@ -289,7 +289,7 @@
         <form action="">
           <input type="text" placeholder="Nom" required>
           <input type="text" placeholder="E-Mail" required>
-          <select  name="departement" required>
+          <select name="departement" required>
             <option value="">Choisissez un département</option>
             <option value="vente">Vente</option>
             <option value="comptabilite">Comptabilité</option>
@@ -302,7 +302,19 @@
           <input type="text" placeholder="Téléphone">
           <input type="text" placeholder="Sujet" required>
           <textarea name="message" id="" cols="30" rows="10" placeholder="Message" required></textarea>
+          <div>
+            <label for="cptcha">
+              <span>Copier les chiffres affich&eacute;s:
+                (obligatoire)</span>
+            </label>
+
+            <div>
+              <img alt="CAPTCHA" border="1" height="30" src="php/captcha.php" width="120" />
+              <input id="captchaInput" maxlength="5" name="captcha" type="text" value="" />
+            </div>
+          </div>
         </form>
+
         <button type="button" class="btn btn-secondary">Envoyer</button>
       </div>
     </div>

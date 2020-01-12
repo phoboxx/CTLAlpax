@@ -224,9 +224,11 @@ p {
 }
 
 #contact .form textarea {
-  /* border-left: 1px solid #222831;
-  border-right: 1px solid #222831; */
   resize: none;
+}
+
+#contact .form #captchaInput {
+  width: 60px;
 }
 
 /* MOBILE DEVICES */
