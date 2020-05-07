@@ -1,5 +1,5 @@
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -86,7 +86,6 @@ p {
   color: #eeeeee;
 }
 
-
 /* Informatique section */
 
 #informatique {
@@ -141,7 +140,6 @@ p {
   padding-left: 15px;
   list-style: square;
 }
-
 
 /* Sauvegardes section */
 #sauvegarde {
@@ -216,11 +214,13 @@ p {
 
 #contact .form {
   text-align: center;
-  width: 50%;
   margin: auto;
+  padding: 0 100px 0 0;
 }
 
-#contact .form input, textarea, select {
+#contact .form input,
+textarea,
+select {
   width: 100%;
   margin: 20px 0;
   background: rgba(0, 0, 0, 0);
@@ -229,7 +229,7 @@ p {
 }
 
 #contact select:invalid {
-  color: #6F776F;
+  color: #6f776f;
 }
 
 #contact .form textarea {
@@ -244,7 +244,18 @@ p {
   font-weight: 600;
 }
 
+#contact i {
+  font-size: 3rem;
+}
 
+#contact p,
+h2 {
+  text-align: center;
+}
+
+#contact .row {
+  padding: 0 0 40px 0;
+}
 
 /* MOBILE DEVICES */
 @media only screen and (max-width: 767px) {
@@ -282,8 +293,6 @@ p {
     font-size: 3.4vw;
   }
 
-
-
   /* sauvegarde Section */
   .sauvegardeContainer {
     width: 100%;
@@ -299,5 +308,9 @@ p {
 
   #sauvegarde .btn {
     font-size: 4vw;
+  }
+
+  #contact .form {
+    padding: 0 0 100px 0;
   }
 }

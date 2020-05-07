@@ -285,7 +285,9 @@
       <div class="header">
         <h1>Contactez-nous</h1>
       </div>
-      <div class="form">
+      <div class="container">
+        <div class="row">
+      <div class="form col-lg-6">
         <form action="php/send_form_email.php" method="post" name="contactform" onsubmit="return checkForm(this)">
           <input type="text" placeholder="Nom" name="nom" required>
           <input type="text" placeholder="E-Mail" name="email" required>
@@ -306,7 +308,6 @@
             <label for="cptcha">
               <span class="captchaWarning">Copier les chiffres affich&eacute;s:(obligatoire)</span>
             </label>
-
             <div>
               <img alt="CAPTCHA" border="1" height="30" src="php/captcha.php" width="120" />
               <input id="captchaInput" maxlength="5" name="captcha" type="text" value="" />
@@ -315,6 +316,44 @@
           <button type="submit" class="btn btn-secondary">Envoyer</button>
         </form>
       </div>
+      <div class="col-lg-6">
+        <div class="container">
+          <div class="row">
+            <div class="col-2">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="col">
+              <h2>CTL Alpax Technologies</h2>
+              <p>2042 Chemin Chambly Longueuil, J4K 3Y2</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2"><i class="fas fa-phone-alt"></i></div>
+            <div class="col"><P>(450) 463-3232</P></div>
+          </div>
+          <div class="row">
+            <div class="col-2"><i class="fas fa-calendar-alt"></i></div>
+            <div class='col'>
+              <p>Horaire sur rendez-vous</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2"><i class="far fa-envelope"></i></div>
+            <div class="col">
+              <p>vente@ctlalpax.ca</p>
+              <p>comptabilite@ctlalpax.ca</p>
+              <p>pos@ctlalpax.ca</p>
+              <p>securite@ctlalpax.ca</p>
+              <p>electronique@ctlalpax.ca</p>
+              <p>communication@ctlalpax.ca</p>
+              <p>webmaster@ctlalpax.ca</p>
+            </div>
+          </div>
+
+      </div>
+      </div>
+    </div>
+    </div>
     </div>
   </section>
 </body>
